@@ -1,1 +1,1 @@
-echo 'nothing'
+This is my first LESS project.
