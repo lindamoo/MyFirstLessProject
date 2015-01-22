@@ -1,0 +1,24 @@
+@blue: #0000FF;
+@gray: #222222;
+@red: #BA2018;
+
+h1 {
+   color: @red;
+}
+
+h2 {
+  color: @blue;
+}
+
+.border-with-radius(@borderWidth, @color, @radius) {
+  border: @borderWidth solid @color;
+  border-radius: @radius;
+}
+
+h1 {
+  .border-with-radius(6px, @gray, 3px);
+}
+
+h3 {
+  color: darken(@gray, 20%);
+}
