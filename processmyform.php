@@ -8,7 +8,7 @@ $mail_from = 'Form Submission';
 // OPTIONAL SETTING
 $redirect_url = 'http://localhost:8080/MyFirstLessProject/Lindaspage.html';
 
-############################# 
+#############################
 ############################
 
 // Fail if _POST and _GET are empty. Nothing to process.
